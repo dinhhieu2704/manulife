@@ -1464,7 +1464,7 @@
     left: 0px;
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
     #SECTION1 {
         height: 633.4px;
     }
@@ -1473,7 +1473,7 @@
         width: 191.528px;
         height: 59.657px;
         top: 0px;
-        left: 1000px;
+        left: 1350px;
     }
 
     #IMAGE2>.ladi-image>.ladi-image-background {
@@ -1485,7 +1485,7 @@
     #HEADLINE3 {
         width: 377px;
         top: 85.5px;
-        left: 630px;
+        left: 880px;
     }
 
     #HEADLINE3>.ladi-headline,
@@ -1498,7 +1498,7 @@
     #HEADLINE4 {
         width: 460px;
         top: 127.5px;
-        left: 710px;
+        left: 1060px;
     }
 
     #HEADLINE4>.ladi-headline,
@@ -1510,7 +1510,7 @@
     #HEADLINE9 {
         width: 229px;
         top: 171.5px;
-        left: 932.998px;
+        left: 1282.998px;
     }
 
     #BOX10,
@@ -1533,12 +1533,12 @@
 
     #GROUP12 {
         top: 248.5px;
-        left: 754px;
+        left: 1004px;
     }
 
     #GROUP16 {
         top: 319px;
-        left: 809.5px;
+        left: 1070.5px;
     }
 
     #BOX20 {
@@ -1583,12 +1583,12 @@
         width: 438.5px;
         height: 84px;
         top: 379.5px;
-        left: 720.75px;
+        left: 968.75px;
     }
 
     #BUTTON22 {
         top: 510.5px;
-        left: 704.385px;
+        left: 954.385px;
     }
 
     #BUTTON_TEXT22 {
@@ -1602,7 +1602,7 @@
     #GROUP27 {
         width: 204.48px;
         top: 509.5px;
-        left: 971.135px;
+        left: 1321.135px;
     }
 
     #SECTION29 {
@@ -2215,7 +2215,149 @@
     }
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
+    #SECTION1 {
+        height: 633.4px;
+    }
+
+    #IMAGE2 {
+        width: 191.528px;
+        height: 59.657px;
+        top: 0px;
+        left: 1000px;
+    }
+
+    #IMAGE2>.ladi-image>.ladi-image-background {
+        width: 191.528px;
+        height: 63.9493px;
+        top: -3.42014px;
+    }
+
+    #HEADLINE3 {
+        width: 377px;
+        top: 85.5px;
+        left: 630px;
+    }
+
+    #HEADLINE3>.ladi-headline,
+    #HEADLINE9>.ladi-headline,
+    #HEADLINE142>.ladi-headline,
+    #HEADLINE156>.ladi-headline {
+        font-size: 23px;
+    }
+
+    #HEADLINE4 {
+        width: 460px;
+        top: 127.5px;
+        left: 710px;
+    }
+
+    #HEADLINE4>.ladi-headline,
+    #HEADLINE87>.ladi-headline,
+    #HEADLINE89>.ladi-headline {
+        font-size: 28px;
+    }
+
+    #HEADLINE9 {
+        width: 229px;
+        top: 171.5px;
+        left: 932.998px;
+    }
+
+    #BOX10,
+    #GROUP12 {
+        width: 363px;
+        height: 50px;
+    }
+
+    #HEADLINE11 {
+        width: 338px;
+        top: 11px;
+        left: 12.5px;
+    }
+
+    #HEADLINE11>.ladi-headline,
+    #HEADLINE196>.ladi-headline,
+    #HEADLINE204>.ladi-headline {
+        font-size: 18px;
+    }
+
+    #GROUP12 {
+        top: 248.5px;
+        left: 754px;
+    }
+
+    #GROUP16 {
+        top: 319px;
+        left: 809.5px;
+    }
+
+    #BOX20 {
+        width: 438.5px;
+        height: 63px;
+        top: 21px;
+    }
+
+    #BOX18 {
+        width: 137px;
+        height: 38px;
+        top: 1px;
+    }
+
+    #HEADLINE17 {
+        width: 133px;
+        left: 6.5px;
+    }
+
+    #HEADLINE17>.ladi-headline {
+        font-size: 25px;
+    }
+
+    #GROUP19 {
+        width: 139.5px;
+        height: 40px;
+        left: 145px;
+    }
+
+    #HEADLINE21 {
+        width: 438px;
+        top: 43px;
+        left: 0.25px;
+    }
+
+    #HEADLINE21>.ladi-headline,
+    #HEADLINE81>.ladi-headline {
+        font-size: 21px;
+    }
+
+    #GROUP80 {
+        width: 438.5px;
+        height: 84px;
+        top: 379.5px;
+        left: 720.75px;
+    }
+
+    #BUTTON22 {
+        top: 510.5px;
+        left: 704.385px;
+    }
+
+    #BUTTON_TEXT22 {
+        width: 242px;
+    }
+
+    #HEADLINE26 {
+        width: 147px;
+    }
+
+    #GROUP27 {
+        width: 204.48px;
+        top: 509.5px;
+        left: 971.135px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
     #SECTION1 {
         height: 516.157px;
     }

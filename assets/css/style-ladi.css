@@ -424,6 +424,12 @@ body.grab {
     height: 100%;
 }
 
+.ladi-container-fluid {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+}
+
 .ladi-element {
     position: absolute;
 }
@@ -488,6 +494,25 @@ body.grab {
 }
 
 #SECTION_POPUP .ladi-container>.ladi-element.hide-visibility {
+    display: block !important;
+    visibility: hidden !important;
+}
+
+#SECTION_POPUP .ladi-container-fluid {
+    z-index: 90000070;
+}
+
+#SECTION_POPUP .ladi-container-fluid>.ladi-element {
+    z-index: 90000070;
+    position: fixed;
+    display: none;
+}
+
+#SECTION_POPUP .ladi-container-fluid>.ladi-element[data-fixed-close="true"] {
+    position: relative !important;
+}
+
+#SECTION_POPUP .ladi-container-fluid>.ladi-element.hide-visibility {
     display: block !important;
     visibility: hidden !important;
 }

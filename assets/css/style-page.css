@@ -1,6 +1,9 @@
 body {
     direction: ltr;
 }
+.ladi-section .ladi-container-fluid {
+    width: 100%;
+}
 
 @media (min-width: 768px) {
     .ladi-section .ladi-container {
