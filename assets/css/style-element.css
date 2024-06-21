@@ -1,6 +1,6 @@
 #SECTION1>.ladi-section-background {
     background-image: url("../images/banner-1.png");
-    background-size: 100% auto;
+    background-size: 100% 100%;
     background-origin: content-box;
     background-position: 50% 0%;
     background-repeat: repeat;
@@ -1473,7 +1473,7 @@
         width: 191.528px;
         height: 59.657px;
         top: 0px;
-        left: 1008.47px;
+        left: 1000px;
     }
 
     #IMAGE2>.ladi-image>.ladi-image-background {
