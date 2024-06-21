@@ -2159,12 +2159,12 @@
     #HEADLINE204 {
         width: 397px;
         top: 33.3px;
-        left: 621px;
+        left: 981px;
     }
 
     #HEADLINE205 {
         top: 75.3px;
-        left: 621px;
+        left: 981px;
     }
 
     #IMAGE206,
@@ -2175,7 +2175,7 @@
 
     #IMAGE206 {
         top: 61.3px;
-        left: 102px;
+        left: -160px;
     }
 
     #POPUP216 {
@@ -2354,6 +2354,22 @@
         width: 204.48px;
         top: 509.5px;
         left: 971.135px;
+    }
+    
+    #HEADLINE204 {
+        width: 397px;
+        top: 33.3px;
+        left: 700px;
+    }
+
+    #HEADLINE205 {
+        top: 75.3px;
+        left: 700px;
+    }
+
+    #IMAGE206 {
+        top: 61.3px;
+        left: 102px;
     }
 }
 
